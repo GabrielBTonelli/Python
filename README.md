@@ -9,3 +9,6 @@ Hopefully it will be useful.
 Hope you enjoy it,
 
 Be my guest!
+
+And for clarification regarding language:
+https://www.python.org/
