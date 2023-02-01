@@ -33,7 +33,7 @@ while not end_of_game:
         lives -= 1
         if lives == 0:
             end_of_game = True
-            from hangman_art import you_lose
+            from hangman_art import you_lose  #import from the hangman_art file created at the beginning.
             print("You lose.")
             print(you_lose)
 
@@ -44,5 +44,5 @@ while not end_of_game:
         end_of_game = True
         print("You win.")
 
-    from hangman_art import stages
+    from hangman_art import stages           #define (stages) and import from the hangman_art file created at the beginning.
     print(stages[lives])
