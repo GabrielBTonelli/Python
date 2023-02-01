@@ -1,6 +1,6 @@
 import random
 
-from hangman_words import word_list
+from hangman_words import word_list  #Here you may create a file (hangman_words) and a list of word (word_list) to import and play with.
 
 chosen_word = random.choice(word_list)
 word_lenght = len(chosen_word)
@@ -8,7 +8,7 @@ word_lenght = len(chosen_word)
 end_of_game = False
 lives = 6
 
-from hangman_art import logo
+from hangman_art import logo     #Here you may create a file (hangman_art) and difine logo (logo) with an ASCII art to import.
 print(logo)
 
 display = []
